@@ -1,0 +1,22 @@
+{
+  "name": "@nijor/core",
+  "version": "2.0.4",
+  "description": "Nijor is a frontend web framework which helps to create websites with ease.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nijorjs/core.git"
+  },
+  "keywords": [
+    "Nijor"
+  ],
+  "author": "Deb Axom",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nijorjs/core/issues"
+  },
+  "homepage": "https://github.com/nijorjs/core#readme"
+}
