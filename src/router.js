@@ -73,6 +73,11 @@ function Convert2Regex(route){
 
 async function RenderRoutes(route){
     if(route.endsWith('/') && route!="/") route = route.substring(0, route.length-1); // convert /route/ to /route
+    if(route.endsWith('.html')) {
+        route = route.slice(0, -5); // convert /route.html to /route
+        history.replaceState(null,null,route); // replace /route.html to /route in the address bar
+
+    }
     if(window.nijor.routes.has(route)) return await window.nijor.routes.get(route)();
     return await RenderRouteWithVars(route,window.nijor.routes);
 }
