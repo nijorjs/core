@@ -1,6 +1,6 @@
 {
   "name": "@nijor/core",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "description": "Nijor is a frontend web framework which helps to create websites with ease.",
   "main": "index.js",
   "scripts": {
